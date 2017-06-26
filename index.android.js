@@ -1,10 +1,11 @@
 import React from 'react'
-import { Text, AppRegistry } from 'react-native'
+import { AppRegistry } from 'react-native'
+import Header from './src/components/Header'
 
 class App extends React.Component {
   render () {
     return (
-      <Text> Some text </Text>
+      <Header headerText={'Albums'}/>
     )
   }
 }
